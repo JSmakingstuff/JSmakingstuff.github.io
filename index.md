@@ -18,8 +18,8 @@
 <body>
 
 <ul>
- <li><a>Home</a></li>
- <li><a>About Me</a></li>
+ <li><a href="#home">Home</a></li>
+ <li><a href="#about">About Me</a></li>
 </ul>
  
 </body>

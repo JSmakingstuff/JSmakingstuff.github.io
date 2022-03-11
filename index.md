@@ -19,7 +19,6 @@
    background-color: #2F2FA2;
    color: #F64C72;
    border: 2px solid #F64C72
-   font-style: bold;
    cursor: pointer;
   }
  </style>

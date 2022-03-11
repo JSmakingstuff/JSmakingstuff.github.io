@@ -34,6 +34,7 @@
 <ul>
  <li><a href="#home">Home</a></li>
  <li><a href="#about">About Me</a></li>
+ <li><a href="#projects">My Projects</a></li>
 </ul>
  
 </body>

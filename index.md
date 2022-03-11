@@ -5,14 +5,13 @@
    list-style-type: none;
    margin: 0;
    padding: 0;
-   float: left;
   }
   
   li a {
-   display: block;
+   text-decoration: none;
+   display: inline-block;
    width: 80px;
    background-color: #dddddd
-   float: left;
   }
  </style>
 </head>

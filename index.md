@@ -20,6 +20,13 @@
    color: #F64C72;
    border: 2px solid #F64C72
   }
+  
+  li a:hover {
+   text-decoration: none;
+   background-color: #F64C72;
+   color: #2F2FA2;
+  }
+  
  </style>
 </head>
 <body>

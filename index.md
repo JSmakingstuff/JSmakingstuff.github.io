@@ -30,7 +30,7 @@
  .video {
    position: absolute;
    top: 300px;
-   left: 50%;
+   left: 400px;
    width: 500px;
    height: 300px;
   }

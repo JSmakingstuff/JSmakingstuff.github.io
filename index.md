@@ -27,6 +27,14 @@
    color: #2F2FA2;
   }
   
+ .video {
+   position: absolute;
+   top: 300px;
+   left: 50%;
+   width: 500px;
+   height: 300px;
+  }
+  
  </style>
 </head>
 <body>
@@ -36,6 +44,8 @@
  <li><a href="#about">About Me</a></li>
  <li><a href="#projects">My Projects</a></li>
 </ul>
+ 
+ <iframe src="bongo_in_space.mp4" title="bongo cat in space" class="video" </iframe>
  
 </body>
 </html>

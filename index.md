@@ -15,7 +15,7 @@
    text-align: center;
    text-decoration: none;
    display: inline-block;
-   width: 80px;
+   width: 120px;
    background-color: #2F2FA2;
    color: #F64C72;
    border: 2px solid #F64C72

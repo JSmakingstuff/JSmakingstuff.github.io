@@ -45,7 +45,9 @@
  <li><a href="#projects">My Projects</a></li>
 </ul>
  
- <iframe src="bongo_in_space.mp4" title="bongo cat in space" class="video" </iframe>
+ <video class="video" controls>
+  <source src="bongo_in_space.mp4" type="video/mp4">
+ </video>
  
 </body>
 </html>

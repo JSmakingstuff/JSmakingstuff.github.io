@@ -47,6 +47,7 @@
  
  <video class="video" controls>
   <source src="bongo_in_space.mp4" type="video/mp4">
+  <h1>Come for the website, stay for the cat in space : )</h1>
  </video>
  
 </body>

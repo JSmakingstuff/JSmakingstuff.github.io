@@ -43,18 +43,11 @@
 </head>
 <body>
 
- <h1> Euan Bradley </h1> 
- 
 <ul>
  <li><a href="#home">Home</a></li>
  <li><a href="#about">About Me</a></li>
  <li><a href="#projects">My Projects</a></li>
 </ul>
- 
- <video class="video" controls>
-  <source src="bongo_in_space.mp4" type="video/mp4">
- </video>
- <h1>Come for the website, stay for the cat in space : )</h1>
  
 </body>
 </html>

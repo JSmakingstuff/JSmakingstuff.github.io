@@ -18,7 +18,7 @@
    width: 120px;
    background-color: #808080;
    color: #FFFFFF;
-   border: 2px solid #F64C72
+   border: 2px solid #FFFFFF
   }
   
   li a:hover {

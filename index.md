@@ -16,8 +16,8 @@
    text-decoration: none;
    display: inline-block;
    width: 120px;
-   background-color: #2F2FA2;
-   color: #F64C72;
+   background-color: #808080;
+   color: #FFFFFF;
    border: 2px solid #F64C72
   }
   

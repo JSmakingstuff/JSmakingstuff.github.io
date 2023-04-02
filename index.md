@@ -23,8 +23,8 @@
   
   li a:hover {
    text-decoration: none;
-   background-color: #F64C72;
-   color: #2F2FA2;
+   background-color: #FFFFFF;
+   color: #808080;
   }
   
  .video {

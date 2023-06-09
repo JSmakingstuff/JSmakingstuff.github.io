@@ -37,12 +37,14 @@
   
   h1{
    text-decoration: none;
+   font-size: 32px;
+   text-align: center;
   }
   
  </style>
 </head>
 <body>
-
+ <h1>Euan Bradley</h1>
 <ul>
  <li><a href="#home">Home</a></li>
  <li><a href="#about">About Me</a></li>

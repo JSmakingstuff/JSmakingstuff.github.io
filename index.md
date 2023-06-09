@@ -39,6 +39,7 @@
    text-decoration: none;
    font-size: 32px;
    text-align: center;
+   color: white;
   }
   
  </style>

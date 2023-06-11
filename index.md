@@ -43,6 +43,8 @@
   }
   
  </style>
+ 
+<link rel="shortcut icon" href="favicon.ico"/>
 </head>
 <body>
  <h1>Euan Bradley</h1>

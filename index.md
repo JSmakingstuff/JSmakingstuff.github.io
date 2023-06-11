@@ -44,7 +44,7 @@
   
  </style>
  
-<link rel="icon" type="image/x-icon" href="favicon.ico"/>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
  <h1>Euan Bradley</h1>

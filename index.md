@@ -47,7 +47,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
- <h1>Euan Bradley</h1>
+
 <ul>
  <li><a href="#home">Home</a></li>
  <li><a href="#about">About Me</a></li>

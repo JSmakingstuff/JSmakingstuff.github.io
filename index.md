@@ -3,7 +3,6 @@
  <style>
   ul {
    list-style-type: none;
-   margin: 0;
    padding: 0;
   }
   
@@ -15,6 +14,7 @@
    text-align: center;
    text-decoration: none;
    display: inline-block;
+   margin-right: 10px;
    width: 120px;
    background-color: #808080;
    color: #FFFFFF;

@@ -97,13 +97,12 @@
 </head>
 <body>
 
-<ul>
+<ul class="scale-in-ver-top">
  <li><a href="#home">Home</a></li>
  <li><a href="#about">About Me</a></li>
  <li><a href="#projects">My Projects</a></li>
 </ul>
 
-<div class="scale-in-ver-top"> Misc </div>
  
 </body>
 </html>

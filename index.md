@@ -6,8 +6,8 @@
    padding: 0;
   }
   
-  body {
-   background-color: #000000;
+  body{
+   font-family: Heebo;
   }
   
   li a {
@@ -90,7 +90,47 @@
     opacity: 1;
   }
 }
-  
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+
+.ClockBox{
+        width: 120px;
+        height: 120px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 25px;
+        margin: 3px;
+        border: 4px solid black;
+        padding: 5px;
+        font-size: 50px;
+        position: relative;
+        left: 25%;
+}
+.ColonBreak{
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        padding: 3px;
+        align-items: center;
+        font-size: 45px;
+        font-weight: bold;
+        position: relative;
+        left: 25%;
+}
+.Container{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content:flex-start;
+        overflow: hidden;
+            
+}
+.Label{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 1px;
+}
  </style>
  
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -103,6 +143,57 @@
  <li><a href="#projects">My Projects</a></li>
 </ul>
 
- 
+<body>
+    <div class="Container">
+        <div class="ClockBox">
+            <p class="Label">H</p>
+            <p id="hours"></p>
+        </div>
+        <div class="ColonBreak">
+            <p>:</p>
+        </div>
+        <div class="ClockBox">
+            <p class="Label">M</p>
+            <p id="minute"></p>
+        </div>
+        <div class="ColonBreak">
+            <p>:</p>
+        </div>
+        <div class="ClockBox">
+            <p class="Label">S</p>
+            <p id="second"></p>
+        </div>
+        <div class="ColonBreak">
+            <p id="AMorPM"></p>
+        </div>
+    </div>
 </body>
+<script>
+    function updateDateTime(){
+        let now = new Date();
+        let hours = now.getHours().toLocaleString();
+        let minutes = now.getMinutes().toLocaleString();
+        let seconds = now.getSeconds().toLocaleString();
+
+        hours = hours < 10 ? "0" + hours : hours;
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        let d;
+        d = hours < 12 ? "AM" : "PM"; //if hours is smaller than 12, than its value will be AM else its value will be pm
+        hours = hours > 12 ? hours - 12 : hours; //if hours value is greater than 12 than 12 will subtracted ( by doing this we will get value till 12 not 13,14 or 24 )
+        hours = hours == 0 ? (hours = 12) : hours; // if hours value is  0 than it value will be 12
+
+        let time = hours + ":" + minutes + ":"  + seconds;
+
+        let currentDateTime = time.toLocaleString();
+
+        document.querySelector('#hours').textContent = hours;
+        document.querySelector('#minute').textContent = minutes;
+        document.querySelector('#second').textContent = seconds;
+        document.querySelector('#AMorPM').textContent = d;
+    }
+
+    setInterval(updateDateTime, 1000)
+</script> 
 </html>

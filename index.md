@@ -142,7 +142,7 @@
  <li><a href="#about">About Me</a></li>
  <li><a href="#projects">My Projects</a></li>
 </ul>
-A
+
 <body>
     <div class="Container">
         <div class="ClockBox">

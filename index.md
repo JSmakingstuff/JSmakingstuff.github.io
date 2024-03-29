@@ -129,7 +129,7 @@
         font-weight: bold;
         text-align: center;
         vertical-align: middle;
-        line-height: 5px;
+        line-height: 10px;
 }
  </style>
  

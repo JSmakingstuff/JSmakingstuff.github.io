@@ -97,7 +97,7 @@
         height: 120px;
         text-align: center;
         vertical-align: middle;
-        line-height: 45px;
+        line-height: 50px;
         margin: 3px;
         border: 4px solid black;
         padding: 5px;
@@ -129,7 +129,7 @@
         font-weight: bold;
         text-align: center;
         vertical-align: middle;
-        line-height: 1px;
+        line-height: 5px;
 }
  </style>
  

@@ -97,7 +97,7 @@
         height: 120px;
         text-align: center;
         vertical-align: middle;
-        line-height: 30px;
+        line-height: 45px;
         margin: 3px;
         border: 4px solid black;
         padding: 5px;
@@ -142,7 +142,7 @@
  <li><a href="#about">About Me</a></li>
  <li><a href="#projects">My Projects</a></li>
 </ul>
-
+A
 <body>
     <div class="Container">
         <div class="ClockBox">
